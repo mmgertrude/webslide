@@ -1,10 +1,57 @@
 ﻿@{
-    ViewData["Title"] = "SelfLearning Media AS";
+    ViewData["Title"] = "Home Page";
 }
 
-<div class="text-center">
-    <h1 class="display-4">Welcome</h1>
-    <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
-</div>
+    <article id="webslides" class="horizontal">
+        @* slide 1 *@
+        <section>
+            <span class="background" style="background-image:url('images/yellowflower2.jpg')" ></span>
+            <div class="wrap">
+                <h1> <strong>Self Learning with Web Development</strong></h1>
+                <p class="text-intro"> Try it, it may not be as hard as it seems! <br />
+                All those great developers started somewhere </p>
+                <p>
+                    <a href="#" class="button zoomIn"> Download the study guide brocher </a>
+                </p>
 
-<script src="~/js/site.js"></script>
+            </div>
+           
+        </section>
+        @* slide 2 *@
+        <section>
+            <div class="wrap size-50 aligncenter">
+                <h2><strong>Why Self Learn?</strong></h2>
+                <p class="text-intro">Learn at your own pace</p>
+                <div class="bg-white shadow">
+                    <ul class="flexblock reasons">
+                        <li>
+                            <h2>Latest and greatest technologies are online</h2>
+                            <p> dumy text of those things</p>
+                        </li>
+                        <li>
+                            <h2>Learn anytime anywhere</h2>
+                            <p> dumy text of those things</p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+        @* slide 3 *@
+    <section>
+        <div class="wrap">
+            <div class="container">
+                <div class="row">
+                    <div class="col">
+                        <h3><strong>Full Stack Javascript</strong></h3>
+                        <p class="text-intro">You can learn Javascript front to back</p>
+                        <p>some more text some more textsome more textsome more textsome more textsome more textsome more text</p>
+                    </div>
+
+                    <div class="col">
+                        <img src="~/images/mustknow.jpg" />
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    </article>
