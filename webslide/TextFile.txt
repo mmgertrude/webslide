@@ -1,0 +1,17 @@
+﻿Claim-based authentication and authorization
+identity cookie
+claimsPrincipal
+Exrernal identity providers eg google
+
+Authentication: Its about determining identity of someone provide some form of Id to ensure you are who you say you are. 
+This is confirmed by claims such as your name, DoB etc Tnese claims make up your identity.
+
+authentication is done by:
+Cookie
+identity
+Identity Provider:  goes beyound the scope of one application
+
+Authorization: What actions a user can do: Gives one access to "certain parts" of the application. eg your hotel room key could open 
+your room, the pool but not the door to other rooms. Thus the key give you limited access to the hotel building
+Authorization needs authentication first.
+authorization is built in into ASP.NET core 
