@@ -1648,7 +1648,7 @@ a#next {
 
 a#previous {
   left: 3.2rem; }
-
+/* 
 @media (max-width: 1024px) {
   #navigation {
     -webkit-animation: fadeIn 6s;
@@ -1658,7 +1658,7 @@ a#previous {
   #navigation a,
   #counter {
     display: none; } }
-
+*/
 /*===============================================================
 6. Magic blocks with flexbox (Auto-fill & Equal Height)
 Blocks Links li>a = .flexblock.blink (.blink required)
@@ -1775,9 +1775,9 @@ footer .column h3 {
   line-height: 1;
   margin: 0; }
 
-.flexblock.features li img {
-  width: 6.4rem; }
-
+    /*.flexblock.features li img {
+  width: 100%; }
+ */
 .flexblock.features li span sup {
   font-size: 3rem; }
 

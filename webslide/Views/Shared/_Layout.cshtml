@@ -55,6 +55,7 @@
          <script src="~/js/webslides.js"></script>
          <script>
              window.ws = new WebSlides();
+             ws.plugins.autoslide.play(4000); // every 4 seconds
          </script>
         @*  <script src="~/js/site.js" asp-append-version="true"></script> *@
         @RenderSection("Scripts", required: false)
